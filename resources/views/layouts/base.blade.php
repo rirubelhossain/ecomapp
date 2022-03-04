@@ -66,7 +66,7 @@
 										</li>
 									</ul>
 								</li>
-								<!-- @if(Route::has('login'))
+								@if(Route::has('login'))
 									@auth
 										@if(Auth::user()->utype() === 'ADM')
 										<li class="menu-item menu-item-has-children parent" >
@@ -94,7 +94,7 @@
 										<li class="menu-item" ><a title="Register or Login" href="{{route('login')}}">Login</a></li>
 										<li class="menu-item" ><a title="Register or Login" href="{{route('register')}}">Register</a></li>
 									@endif
-								@endif -->
+								@endif
 
 							</ul>
 						</div>
